@@ -63,6 +63,22 @@
             "website": "mikelmurazik.com",
             "cover_letter": "Lorem ipsum Reprehenderit magna dolore occaecat in velit ad in dolore voluptate quis enim velit proident irure sit ut qui ex Duis sed proident ut quis aliqua.",
             "job_id": 2
+        },
+        {
+            "id": 9,
+            "name": "Johnny Test",
+            "email": "JonTest@jontest.com",
+            "website": "jontest.com",
+            "cover_letter": "Lorem ipsum Reprehenderit dolor commodo est sunt ut Duis in sunt pariatur velit nisi aute irure dolor minim Excepteur veniam qui ut commodo Duis mollit nostrud occaecat ex dolore aliquip laboris dolore cillum ullamco enim et.",
+            "job_id": 3
+        },
+        {
+            "id": 10,
+            "name": "Jane Test",
+            "email": "Jane@Jane.com",
+            "website": "Jane.com",
+            "cover_letter": "Lorem ipsum Reprehenderit magna dolore occaecat in velit ad in dolore voluptate quis enim velit proident irure sit ut qui ex Duis sed proident ut quis aliqua.",
+            "job_id": 3
         }
     ],
     "jobs": [
@@ -73,6 +89,10 @@
         {
             "id": 2,
             "name": "Web Designer"
+        },
+        {
+            "id": 3,
+            "name": "Human Resources"
         }
     ],
     "skills": [
@@ -140,6 +160,21 @@
             "id": 13,
             "name": "Fireworks",
             "applicant_id": 8
+        },
+        {
+            "id": 14,
+            "name": "PowerPoint",
+            "applicant_id": 9
+        },
+        {
+            "id": 15,
+            "name": "Excel",
+            "applicant_id": 9
+        },
+        {
+            "id": 16,
+            "name": "Excel",
+            "applicant_id": 10
         }
     ]
 }
