@@ -1,6 +1,6 @@
-coding test for Objective Web Development position
+**coding test for Objective Web Development position**
 
-In the project directory make sure to run:
+In the project directory please run:
 
 `npm install` 
 
@@ -12,4 +12,4 @@ Then run:
 
 to run the application on http://localhost:3000/ by default.
 
-The data used is in JSON format and needs to be located in src directory.
+The data used is in JSON format and needs to be located in src directory and can be replaced with different data using the same name data.json
