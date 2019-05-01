@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Data from '../../data.json'
-import PositionTable2 from './PositionTable2.js';
+import PositionTable from './PositionTable.js';
 
 class MainTable extends Component{
     state = {
@@ -17,7 +17,7 @@ class MainTable extends Component{
     render(){
         const { applicants, skills } = this.state
 
-        let jobPositionIds = applicants.reduce((accumulator, current) => {
+        const jobPositionIds = applicants.reduce((accumulator, current) => {
             if(!accumulator.includes(current.job_id)){
                 accumulator.push(current.job_id)
             }       
@@ -33,8 +33,7 @@ class MainTable extends Component{
 
         const positionTable = jobPositionIds.map(job_id => {
             const peopleList = applicants.filter(person => {return (person.job_id === job_id)})
-            /* console.log(peopleList) */
-            return <PositionTable2 key={job_id} job_id={job_id} applicants={peopleList} />
+            return <PositionTable key={job_id} job_id={job_id} applicants={peopleList} />
         })
 
         return(
